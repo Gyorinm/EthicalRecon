@@ -19,7 +19,3 @@ python html.py -t example.com -o html -f report.html
 python html.py -t example.com -v
 # → Displays detailed scan information in the terminal (for debugging or more insights).
 
-# Scan github.com and export to HTML file named github_report.html
-python html.py -t github.com -o html -f github_report.html
-# → Generates a styled HTML report of GitHub scan and saves it as "github_report.html".
-
